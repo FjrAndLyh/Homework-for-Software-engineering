@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_fArSkGGrEe6k_OVxTJJPsA" name="UML2 Model">
+  <eAnnotations xmi:id="_fBJzsGGrEe6k_OVxTJJPsA" source="TaggedValues">
+    <details xmi:id="_fBJzsWGrEe6k_OVxTJJPsA" key="ProjectType" value="UML2Project"/>
+    <details xmi:id="_2jXcoGGyEe6k_OVxTJJPsA" key="Diagrams" value="_fCTDMGGrEe6k_OVxTJJPsA,_QT1YwGGtEe6k_OVxTJJPsA,_ECyBYGGuEe6k_OVxTJJPsA,_5NuRcGGvEe6k_OVxTJJPsA,"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_fCTDMWGrEe6k_OVxTJJPsA" source="Diagrams">
+    <contents xmi:type="trufun:TClassDiagram" xmi:id="_fCTDMmGrEe6k_OVxTJJPsA" id="_fCTDMGGrEe6k_OVxTJJPsA" owner="_fArSkGGrEe6k_OVxTJJPsA" name="main" zoom="1.0" gridSpacing="22,22">
+      <leftRuler xmi:id="_fCTDM2GrEe6k_OVxTJJPsA" unit="2"/>
+      <topRuler xmi:id="_fCTDNGGrEe6k_OVxTJJPsA" horizontal="true" unit="2"/>
+    </contents>
+    <contents xmi:type="trufun:TUsecaseDiagram" xmi:id="_QT1YwWGtEe6k_OVxTJJPsA" id="_QT1YwGGtEe6k_OVxTJJPsA" owner="_fArSkGGrEe6k_OVxTJJPsA" name="客户端子系统用例图" zoom="1.0" gridSpacing="22,22">
+      <nodes xmi:type="trufun:TActorNode" xmi:id="_TQv10WGtEe6k_OVxTJJPsA" owner="_TQv10GGtEe6k_OVxTJJPsA" name="学生" outgoingConnections="__UwzFmGtEe6k_OVxTJJPsA _1T5Vp2GuEe6k_OVxTJJPsA _2NHcp2GuEe6k_OVxTJJPsA _3AVpV2GuEe6k_OVxTJJPsA _41cw12GuEe6k_OVxTJJPsA _5SJ692GuEe6k_OVxTJJPsA _5vDSV2GuEe6k_OVxTJJPsA _6Gm2t2GuEe6k_OVxTJJPsA _6hgC92GuEe6k_OVxTJJPsA _7mc412GuEe6k_OVxTJJPsA _8E36N2GuEe6k_OVxTJJPsA _8aVM12GuEe6k_OVxTJJPsA _TyYRV2GvEe6k_OVxTJJPsA" location="130,348" size="109,121">
+        <fillColor xmi:id="_TQv10mGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_TQv102GtEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_TQv11GGtEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_TQv11WGtEe6k_OVxTJJPsA" id="_TQv10GGtEe6k_OVxTJJPsA"/>
+      </nodes>
+      <nodes xmi:type="trufun:TActorNode" xmi:id="_Y37gwWGtEe6k_OVxTJJPsA" owner="_Y37gwGGtEe6k_OVxTJJPsA" name="教师" outgoingConnections="_XNEPh2GvEe6k_OVxTJJPsA _YI9QB2GvEe6k_OVxTJJPsA _YiOrp2GvEe6k_OVxTJJPsA _ow4rl2GvEe6k_OVxTJJPsA _pCVn92GvEe6k_OVxTJJPsA _pXib52GvEe6k_OVxTJJPsA _ptEnB2GvEe6k_OVxTJJPsA _qBILd2GvEe6k_OVxTJJPsA _qd2jt2GvEe6k_OVxTJJPsA _rKDiZ2GvEe6k_OVxTJJPsA _ridbV2GvEe6k_OVxTJJPsA _sFcMl2GvEe6k_OVxTJJPsA _saVeh2GvEe6k_OVxTJJPsA" location="1482,375" size="121,125">
+        <fillColor xmi:id="_Y37gwmGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_Y37gw2GtEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_Y37gxGGtEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_Y37gxWGtEe6k_OVxTJJPsA" id="_Y37gwGGtEe6k_OVxTJJPsA"/>
+      </nodes>
+      <nodes xmi:type="trufun:TActorNode" xmi:id="_ZBLjYGGtEe6k_OVxTJJPsA" owner="_ZBFcwGGtEe6k_OVxTJJPsA" name="游客" outgoingConnections="_-34NV2GuEe6k_OVxTJJPsA __aBRF2GuEe6k_OVxTJJPsA _AjvSN2GvEe6k_OVxTJJPsA _A7rRF2GvEe6k_OVxTJJPsA _BThJV2GvEe6k_OVxTJJPsA _CMW112GvEe6k_OVxTJJPsA" location="132,701" size="121,137">
+        <fillColor xmi:id="_ZBLjYWGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_ZBLjYmGtEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_ZBLjY2GtEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_ZBLjZGGtEe6k_OVxTJJPsA" id="_ZBFcwGGtEe6k_OVxTJJPsA"/>
+      </nodes>
+      <nodes xmi:type="trufun:TActorNode" xmi:id="_ZMie0WGtEe6k_OVxTJJPsA" owner="_ZMie0GGtEe6k_OVxTJJPsA" name="管理员" outgoingConnections="_vUfih2GvEe6k_OVxTJJPsA _v4oKVWGvEe6k_OVxTJJPsA _wQBWp2GvEe6k_OVxTJJPsA _wkr_F2GvEe6k_OVxTJJPsA _xJ5k92GvEe6k_OVxTJJPsA" location="1499,717" size="116,130">
+        <fillColor xmi:id="_ZMie0mGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_ZMie02GtEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_ZMie1GGtEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_ZMie1WGtEe6k_OVxTJJPsA" id="_ZMie0GGtEe6k_OVxTJJPsA"/>
+      </nodes>
+      <nodes xmi:type="trufun:TPackageNode" xmi:id="_BNbk4GGuEe6k_OVxTJJPsA" owner="_BNa90GGuEe6k_OVxTJJPsA" name="客户端子系统" location="686,141" size="360,909">
+        <fillColor xmi:id="_BNbk4WGuEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_BNbk4mGuEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_BNbk42GuEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_BNbk5GGuEe6k_OVxTJJPsA" id="_BNa90GGuEe6k_OVxTJJPsA"/>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_umGdYGGtEe6k_OVxTJJPsA" owner="_umFPQGGtEe6k_OVxTJJPsA" name="注册系统" incomingConnections="_1T5Vp2GuEe6k_OVxTJJPsA _YI9QB2GvEe6k_OVxTJJPsA" location="71,71" size="216,40" keepMaxSize="false">
+          <fillColor xmi:id="_umGdYWGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_umGdYmGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_umGdY2GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_umGdZGGtEe6k_OVxTJJPsA" id="_umFPQGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_umGdZWGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_uCVB8GGtEe6k_OVxTJJPsA" owner="_uCUa4GGtEe6k_OVxTJJPsA" name="登录系统" incomingConnections="__UwzFmGtEe6k_OVxTJJPsA _-34NV2GuEe6k_OVxTJJPsA _XNEPh2GvEe6k_OVxTJJPsA _vUfih2GvEe6k_OVxTJJPsA" location="92,9" size="212,40" keepMaxSize="false">
+          <fillColor xmi:id="_uCVB8WGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_uCVB8mGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_uCVB82GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_uCVB9GGtEe6k_OVxTJJPsA" id="_uCUa4GGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_uCVB9WGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_xZTk0WGtEe6k_OVxTJJPsA" owner="_xZTk0GGtEe6k_OVxTJJPsA" name="公告栏系统" incomingConnections="_2NHcp2GuEe6k_OVxTJJPsA __aBRF2GuEe6k_OVxTJJPsA _ow4rl2GvEe6k_OVxTJJPsA" location="72,211" size="215,40" keepMaxSize="false">
+          <fillColor xmi:id="_xZTk0mGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_xZTk02GtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_xZTk1GGtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_xZTk1WGtEe6k_OVxTJJPsA" id="_xZTk0GGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_xZTk1mGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_xrUh4GGtEe6k_OVxTJJPsA" owner="_xrT60GGtEe6k_OVxTJJPsA" name="课程介绍" incomingConnections="_3AVpV2GuEe6k_OVxTJJPsA _AjvSN2GvEe6k_OVxTJJPsA _pCVn92GvEe6k_OVxTJJPsA _v4oKVWGvEe6k_OVxTJJPsA" location="82,271" size="199,40" keepMaxSize="false">
+          <fillColor xmi:id="_xrUh4WGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_xrUh4mGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_xrUh42GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_xrUh5GGtEe6k_OVxTJJPsA" id="_xrT60GGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_xrUh5WGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_vACnYGGtEe6k_OVxTJJPsA" owner="_vABZQGGtEe6k_OVxTJJPsA" name="课程内容" incomingConnections="_41cw12GuEe6k_OVxTJJPsA _A7rRF2GvEe6k_OVxTJJPsA _pXib52GvEe6k_OVxTJJPsA _wQBWp2GvEe6k_OVxTJJPsA" location="79,334" size="202,40" keepMaxSize="false">
+          <fillColor xmi:id="_vACnYWGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_vACnYmGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_vACnY2GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_vACnZGGtEe6k_OVxTJJPsA" id="_vABZQGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_vACnZWGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_yk2K4GGtEe6k_OVxTJJPsA" owner="_yk1j0GGtEe6k_OVxTJJPsA" name="课程实践" incomingConnections="_5SJ692GuEe6k_OVxTJJPsA _BThJV2GvEe6k_OVxTJJPsA _ptEnB2GvEe6k_OVxTJJPsA _wkr_F2GvEe6k_OVxTJJPsA" location="85,395" size="198,40" keepMaxSize="false">
+          <fillColor xmi:id="_yk2K4WGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_yk2K4mGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_yk2K42GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_yk2K5GGtEe6k_OVxTJJPsA" id="_yk1j0GGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_yk2K5WGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_zcAcYGGtEe6k_OVxTJJPsA" owner="_zb_OQGGtEe6k_OVxTJJPsA" name="教学团队" incomingConnections="_5vDSV2GuEe6k_OVxTJJPsA _CMW112GvEe6k_OVxTJJPsA _qBILd2GvEe6k_OVxTJJPsA _xJ5k92GvEe6k_OVxTJJPsA" location="84,459" size="193,40" keepMaxSize="false">
+          <fillColor xmi:id="_zcAcYWGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_zcAcYmGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_zcAcY2GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_zcAcZGGtEe6k_OVxTJJPsA" id="_zb_OQGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_zcAcZWGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_y-3NYGGtEe6k_OVxTJJPsA" owner="_y-2mUGGtEe6k_OVxTJJPsA" name="选课系统" incomingConnections="_6Gm2t2GuEe6k_OVxTJJPsA _qd2jt2GvEe6k_OVxTJJPsA" location="84,519" size="190,40" keepMaxSize="false">
+          <fillColor xmi:id="_y-3NYWGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_y-3NYmGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_y-3NY2GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_y-3NZGGtEe6k_OVxTJJPsA" id="_y-2mUGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_y-3NZWGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_zn90wGGtEe6k_OVxTJJPsA" owner="_zn9NsGGtEe6k_OVxTJJPsA" name="成绩管理" incomingConnections="_6hgC92GuEe6k_OVxTJJPsA _rKDiZ2GvEe6k_OVxTJJPsA" location="87,573" size="192,40" keepMaxSize="false">
+          <fillColor xmi:id="_zn90wWGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_zn90wmGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_zn90w2GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_zn90xGGtEe6k_OVxTJJPsA" id="_zn9NsGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_zn90xWGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_09vU4GGtEe6k_OVxTJJPsA" owner="_09uGwGGtEe6k_OVxTJJPsA" name="网上测试" incomingConnections="_7mc412GuEe6k_OVxTJJPsA _ridbV2GvEe6k_OVxTJJPsA" location="84,634" size="193,40" keepMaxSize="false">
+          <fillColor xmi:id="_09vU4WGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_09vU4mGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_09vU42GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_09vU5GGtEe6k_OVxTJJPsA" id="_09uGwGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_09vU5WGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_0wsXYGGtEe6k_OVxTJJPsA" owner="_0wrwUGGtEe6k_OVxTJJPsA" name="下载区" incomingConnections="_8E36N2GuEe6k_OVxTJJPsA _sFcMl2GvEe6k_OVxTJJPsA" location="75,708" size="207,40" keepMaxSize="false">
+          <fillColor xmi:id="_0ws-cGGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_0ws-cWGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_0ws-cmGtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_0ws-c2GtEe6k_OVxTJJPsA" id="_0wrwUGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_0ws-dGGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_zN5H4GGtEe6k_OVxTJJPsA" owner="_zN35wGGtEe6k_OVxTJJPsA" name="视频学习管理" incomingConnections="_8aVM12GuEe6k_OVxTJJPsA _saVeh2GvEe6k_OVxTJJPsA" location="56,779" size="262,40" keepMaxSize="false">
+          <fillColor xmi:id="_zN5H4WGtEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_zN5H4mGtEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_zN5H42GtEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_zN5H5GGtEe6k_OVxTJJPsA" id="_zN35wGGtEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_zN5H5WGtEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_NM2u0GGvEe6k_OVxTJJPsA" owner="_NMwoMGGvEe6k_OVxTJJPsA" name="留言板系统" incomingConnections="_TyYRV2GvEe6k_OVxTJJPsA _YiOrp2GvEe6k_OVxTJJPsA" location="85,145" size="206,40" keepMaxSize="false">
+          <fillColor xmi:id="_NM2u0WGvEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_NM2u0mGvEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_NM2u02GvEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_NM2u1GGvEe6k_OVxTJJPsA" id="_NMwoMGGvEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_NM2u1WGvEe6k_OVxTJJPsA"/>
+        </nodes>
+      </nodes>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="__UwzFmGtEe6k_OVxTJJPsA" owner="__Uu94GGtEe6k_OVxTJJPsA" name="" target="_uCVB8GGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="__UwzF2GtEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_1T5Vp2GuEe6k_OVxTJJPsA" owner="_1T5VoGGuEe6k_OVxTJJPsA" name="" target="_umGdYGGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_1T5VqGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_2NHcp2GuEe6k_OVxTJJPsA" owner="_2NHcoGGuEe6k_OVxTJJPsA" name="" target="_xZTk0WGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_2NHcqGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_3AVpV2GuEe6k_OVxTJJPsA" owner="_3AVpUGGuEe6k_OVxTJJPsA" name="" target="_xrUh4GGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_3AVpWGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_41cw12GuEe6k_OVxTJJPsA" owner="_41cw0GGuEe6k_OVxTJJPsA" name="" target="_vACnYGGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_41cw2GGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_5SJ692GuEe6k_OVxTJJPsA" owner="_5SJ68GGuEe6k_OVxTJJPsA" name="" target="_yk2K4GGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_5SJ6-GGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_5vDSV2GuEe6k_OVxTJJPsA" owner="_5vDSUGGuEe6k_OVxTJJPsA" name="" target="_zcAcYGGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_5vDSWGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_6Gm2t2GuEe6k_OVxTJJPsA" owner="_6Gm2sGGuEe6k_OVxTJJPsA" name="" target="_y-3NYGGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_6Gm2uGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_6hgC92GuEe6k_OVxTJJPsA" owner="_6hgC8GGuEe6k_OVxTJJPsA" name="" target="_zn90wGGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_6hgC-GGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_7mc412GuEe6k_OVxTJJPsA" owner="_7mc40GGuEe6k_OVxTJJPsA" name="" target="_09vU4GGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_7mc42GGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_8E36N2GuEe6k_OVxTJJPsA" owner="_8E36MGGuEe6k_OVxTJJPsA" name="" target="_0wsXYGGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_8E36OGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_8aVM12GuEe6k_OVxTJJPsA" owner="_8aVM0GGuEe6k_OVxTJJPsA" name="" target="_zN5H4GGtEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_8aVM2GGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_-34NV2GuEe6k_OVxTJJPsA" owner="_-34NUGGuEe6k_OVxTJJPsA" name="" target="_uCVB8GGtEe6k_OVxTJJPsA" source="_ZBLjYGGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_-34NWGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="__aBRF2GuEe6k_OVxTJJPsA" owner="__aBREGGuEe6k_OVxTJJPsA" name="" target="_xZTk0WGtEe6k_OVxTJJPsA" source="_ZBLjYGGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="__aBRGGGuEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_AjvSN2GvEe6k_OVxTJJPsA" owner="_AjvSMGGvEe6k_OVxTJJPsA" name="" target="_xrUh4GGtEe6k_OVxTJJPsA" source="_ZBLjYGGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_AjvSOGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_A7rRF2GvEe6k_OVxTJJPsA" owner="_A7rREGGvEe6k_OVxTJJPsA" name="" target="_vACnYGGtEe6k_OVxTJJPsA" source="_ZBLjYGGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_A7rRGGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_BThJV2GvEe6k_OVxTJJPsA" owner="_BThJUGGvEe6k_OVxTJJPsA" name="" target="_yk2K4GGtEe6k_OVxTJJPsA" source="_ZBLjYGGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_BThJWGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_CMW112GvEe6k_OVxTJJPsA" owner="_CMW10GGvEe6k_OVxTJJPsA" name="" target="_zcAcYGGtEe6k_OVxTJJPsA" source="_ZBLjYGGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_CMW12GGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_TyYRV2GvEe6k_OVxTJJPsA" owner="_TyYRUGGvEe6k_OVxTJJPsA" name="" target="_NM2u0GGvEe6k_OVxTJJPsA" source="_TQv10WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_TyYRWGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_XNEPh2GvEe6k_OVxTJJPsA" owner="_XNEPgGGvEe6k_OVxTJJPsA" name="" target="_uCVB8GGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_XNEPiGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_YI9QB2GvEe6k_OVxTJJPsA" owner="_YI9QAGGvEe6k_OVxTJJPsA" name="" target="_umGdYGGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_YI9QCGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_YiOrp2GvEe6k_OVxTJJPsA" owner="_YiOroGGvEe6k_OVxTJJPsA" name="" target="_NM2u0GGvEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_YiOrqGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_ow4rl2GvEe6k_OVxTJJPsA" owner="_ow4rkGGvEe6k_OVxTJJPsA" name="" target="_xZTk0WGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_ow4rmGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_pCVn92GvEe6k_OVxTJJPsA" owner="_pCVn8GGvEe6k_OVxTJJPsA" name="" target="_xrUh4GGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_pCVn-GGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_pXib52GvEe6k_OVxTJJPsA" owner="_pXib4GGvEe6k_OVxTJJPsA" name="" target="_vACnYGGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_pXib6GGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_ptEnB2GvEe6k_OVxTJJPsA" owner="_ptEnAGGvEe6k_OVxTJJPsA" name="" target="_yk2K4GGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_ptEnCGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_qBILd2GvEe6k_OVxTJJPsA" owner="_qBILcGGvEe6k_OVxTJJPsA" name="" target="_zcAcYGGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_qBILeGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_qd2jt2GvEe6k_OVxTJJPsA" owner="_qd2jsGGvEe6k_OVxTJJPsA" name="" target="_y-3NYGGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_qd2juGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_rKDiZ2GvEe6k_OVxTJJPsA" owner="_rKDiYGGvEe6k_OVxTJJPsA" name="" target="_zn90wGGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_rKDiaGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_ridbV2GvEe6k_OVxTJJPsA" owner="_ridbUGGvEe6k_OVxTJJPsA" name="" target="_09vU4GGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_ridbWGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_sFcMl2GvEe6k_OVxTJJPsA" owner="_sFcMkGGvEe6k_OVxTJJPsA" name="" target="_0wsXYGGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_sFcMmGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_saVeh2GvEe6k_OVxTJJPsA" owner="_saVegGGvEe6k_OVxTJJPsA" name="" target="_zN5H4GGtEe6k_OVxTJJPsA" source="_Y37gwWGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_saVeiGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_vUfih2GvEe6k_OVxTJJPsA" owner="_vUfigGGvEe6k_OVxTJJPsA" name="" target="_uCVB8GGtEe6k_OVxTJJPsA" source="_ZMie0WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_vUfiiGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_v4oKVWGvEe6k_OVxTJJPsA" owner="_v4njQGGvEe6k_OVxTJJPsA" name="" target="_xrUh4GGtEe6k_OVxTJJPsA" source="_ZMie0WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_v4oKVmGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_wQBWp2GvEe6k_OVxTJJPsA" owner="_wQBWoGGvEe6k_OVxTJJPsA" name="" target="_vACnYGGtEe6k_OVxTJJPsA" source="_ZMie0WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_wQBWqGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_wkr_F2GvEe6k_OVxTJJPsA" owner="_wkr_EGGvEe6k_OVxTJJPsA" name="" target="_yk2K4GGtEe6k_OVxTJJPsA" source="_ZMie0WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_wkr_GGGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_xJ5k92GvEe6k_OVxTJJPsA" owner="_xJ5k8GGvEe6k_OVxTJJPsA" name="" target="_zcAcYGGtEe6k_OVxTJJPsA" source="_ZMie0WGtEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_xJ5k-GGvEe6k_OVxTJJPsA"/>
+      </connections>
+      <leftRuler xmi:id="_QT1YwmGtEe6k_OVxTJJPsA" unit="2"/>
+      <topRuler xmi:id="_QT1Yw2GtEe6k_OVxTJJPsA" horizontal="true" unit="2"/>
+    </contents>
+    <contents xmi:type="trufun:TUsecaseDiagram" xmi:id="_5NuRcWGvEe6k_OVxTJJPsA" id="_5NuRcGGvEe6k_OVxTJJPsA" owner="_fArSkGGrEe6k_OVxTJJPsA" name="管理端子系统用例图" zoom="1.0" gridSpacing="22,22">
+      <nodes xmi:type="trufun:TActorNode" xmi:id="_AOp9kGGwEe6k_OVxTJJPsA" owner="_ZMie0GGtEe6k_OVxTJJPsA" name="管理员" outgoingConnections="_kekFU2GwEe6k_OVxTJJPsA _ktvw12GwEe6k_OVxTJJPsA _lJw-d2GwEe6k_OVxTJJPsA" location="331,366" size="148,165">
+        <fillColor xmi:id="_AOp9kWGwEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_AOp9kmGwEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_AOp9k2GwEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_AOp9lGGwEe6k_OVxTJJPsA"/>
+      </nodes>
+      <nodes xmi:type="trufun:TPackageNode" xmi:id="_CBIn0WGwEe6k_OVxTJJPsA" owner="_CBIn0GGwEe6k_OVxTJJPsA" name="管理端子系统" location="681,204" size="346,536">
+        <fillColor xmi:id="_CBIn0mGwEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_CBIn02GwEe6k_OVxTJJPsA"/>
+        <fontColor xmi:id="_CBIn1GGwEe6k_OVxTJJPsA"/>
+        <stereotypeNodes xmi:id="_CBIn1WGwEe6k_OVxTJJPsA" id="_CBIn0GGwEe6k_OVxTJJPsA"/>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_ErYnkWGwEe6k_OVxTJJPsA" owner="_ErYnkGGwEe6k_OVxTJJPsA" name="用户管理" incomingConnections="_kekFU2GwEe6k_OVxTJJPsA" location="16,62" size="257,75" keepMaxSize="false">
+          <fillColor xmi:id="_ErYnkmGwEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_ErYnk2GwEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_ErYnlGGwEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_ErYnlWGwEe6k_OVxTJJPsA" id="_ErYnkGGwEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_ErYnlmGwEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_E7ECUWGwEe6k_OVxTJJPsA" owner="_E7ECUGGwEe6k_OVxTJJPsA" name="课程资源管理" incomingConnections="_ktvw12GwEe6k_OVxTJJPsA" location="31,174" size="243,84" keepMaxSize="false">
+          <fillColor xmi:id="_E7ECUmGwEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_E7ECU2GwEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_E7ECVGGwEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_E7ECVWGwEe6k_OVxTJJPsA" id="_E7ECUGGwEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_E7ECVmGwEe6k_OVxTJJPsA"/>
+        </nodes>
+        <nodes xmi:type="trufun:TUseCaseNode" xmi:id="_FMX0wWGwEe6k_OVxTJJPsA" owner="_FMX0wGGwEe6k_OVxTJJPsA" name="课程内容管理" incomingConnections="_lJw-d2GwEe6k_OVxTJJPsA" location="29,300" size="261,84" keepMaxSize="false">
+          <fillColor xmi:id="_FMX0wmGwEe6k_OVxTJJPsA" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_FMX0w2GwEe6k_OVxTJJPsA"/>
+          <fontColor xmi:id="_FMX0xGGwEe6k_OVxTJJPsA"/>
+          <stereotypeNodes xmi:id="_FMX0xWGwEe6k_OVxTJJPsA" id="_FMX0wGGwEe6k_OVxTJJPsA"/>
+          <extensionPointCompartmentNode xmi:id="_FMX0xmGwEe6k_OVxTJJPsA"/>
+        </nodes>
+      </nodes>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_kekFU2GwEe6k_OVxTJJPsA" owner="_kei3MGGwEe6k_OVxTJJPsA" name="" target="_ErYnkWGwEe6k_OVxTJJPsA" source="_AOp9kGGwEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_kekFVGGwEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_ktvw12GwEe6k_OVxTJJPsA" owner="_ktvw0GGwEe6k_OVxTJJPsA" name="" target="_E7ECUWGwEe6k_OVxTJJPsA" source="_AOp9kGGwEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_ktvw2GGwEe6k_OVxTJJPsA"/>
+      </connections>
+      <connections xmi:type="trufun:TAssociationConnection" xmi:id="_lJw-d2GwEe6k_OVxTJJPsA" owner="_lJw-cGGwEe6k_OVxTJJPsA" name="" target="_FMX0wWGwEe6k_OVxTJJPsA" source="_AOp9kGGwEe6k_OVxTJJPsA">
+        <fillColor xmi:id="_lJw-eGGwEe6k_OVxTJJPsA"/>
+      </connections>
+      <leftRuler xmi:id="_5NuRcmGvEe6k_OVxTJJPsA" unit="2"/>
+      <topRuler xmi:id="_5NuRc2GvEe6k_OVxTJJPsA" horizontal="true" unit="2"/>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_fArSkWGrEe6k_OVxTJJPsA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBP6UGGrEe6k_OVxTJJPsA" name="Byte">
+    <eAnnotations xmi:id="_fBP6UWGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBP6UmGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBP6U2GrEe6k_OVxTJJPsA" name="Character">
+    <eAnnotations xmi:id="_fBP6VGGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBP6VWGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBP6VmGrEe6k_OVxTJJPsA" name="Date">
+    <eAnnotations xmi:id="_fBP6V2GrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBP6WGGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBP6WWGrEe6k_OVxTJJPsA" name="Double">
+    <eAnnotations xmi:id="_fBP6WmGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBP6W2GrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBP6XGGrEe6k_OVxTJJPsA" name="Float">
+    <eAnnotations xmi:id="_fBP6XWGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBP6XmGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBP6X2GrEe6k_OVxTJJPsA" name="Long">
+    <eAnnotations xmi:id="_fBWA8GGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWA8WGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWA8mGrEe6k_OVxTJJPsA" name="Real">
+    <eAnnotations xmi:id="_fBWA82GrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWA9GGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWA9WGrEe6k_OVxTJJPsA" name="Short">
+    <eAnnotations xmi:id="_fBWA9mGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWA92GrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWA-GGrEe6k_OVxTJJPsA" name="Int">
+    <eAnnotations xmi:id="_fBWA-WGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWA-mGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWA-2GrEe6k_OVxTJJPsA" name="String">
+    <eAnnotations xmi:id="_fBWA_GGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWA_WGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWA_mGrEe6k_OVxTJJPsA" name="Integer">
+    <eAnnotations xmi:id="_fBWA_2GrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBAGGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBAWGrEe6k_OVxTJJPsA" name="byte">
+    <eAnnotations xmi:id="_fBWBAmGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBA2GrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBBGGrEe6k_OVxTJJPsA" name="character">
+    <eAnnotations xmi:id="_fBWBBWGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBBmGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBB2GrEe6k_OVxTJJPsA" name="date">
+    <eAnnotations xmi:id="_fBWBCGGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBCWGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBCmGrEe6k_OVxTJJPsA" name="double">
+    <eAnnotations xmi:id="_fBWBC2GrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBDGGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBDWGrEe6k_OVxTJJPsA" name="float">
+    <eAnnotations xmi:id="_fBWBDmGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBD2GrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBEGGrEe6k_OVxTJJPsA" name="long">
+    <eAnnotations xmi:id="_fBWBEWGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBEmGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBE2GrEe6k_OVxTJJPsA" name="real">
+    <eAnnotations xmi:id="_fBWBFGGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBFWGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBFmGrEe6k_OVxTJJPsA" name="short">
+    <eAnnotations xmi:id="_fBWBF2GrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBGGGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBGWGrEe6k_OVxTJJPsA" name="int">
+    <eAnnotations xmi:id="_fBWBGmGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBG2GrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBHGGrEe6k_OVxTJJPsA" name="string">
+    <eAnnotations xmi:id="_fBWBHWGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBWBHmGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fBWBH2GrEe6k_OVxTJJPsA" name="integer">
+    <eAnnotations xmi:id="_fBcHkGGrEe6k_OVxTJJPsA" source="Internel_TaggedValues">
+      <details xmi:id="_fBcHkWGrEe6k_OVxTJJPsA" key="WRITE_PROTECTED" value="true"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TQv10GGtEe6k_OVxTJJPsA" name="学生"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Y37gwGGtEe6k_OVxTJJPsA" name="教师"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZBFcwGGtEe6k_OVxTJJPsA" name="游客"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZMie0GGtEe6k_OVxTJJPsA" name="管理员"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__Uu94GGtEe6k_OVxTJJPsA" memberEnd="__UwzEGGtEe6k_OVxTJJPsA __UwzE2GtEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="__UwzEGGtEe6k_OVxTJJPsA" name="" visibility="private" type="_uCUa4GGtEe6k_OVxTJJPsA" isUnique="false" association="__Uu94GGtEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UwzEmGtEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UwzEWGtEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__UwzE2GtEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="__Uu94GGtEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UwzFWGtEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UwzFGGtEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_BNa90GGuEe6k_OVxTJJPsA" name="客户端子系统">
+    <eAnnotations xmi:id="_ECyBYWGuEe6k_OVxTJJPsA" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_ECyBYmGuEe6k_OVxTJJPsA" id="_ECyBYGGuEe6k_OVxTJJPsA" owner="_BNa90GGuEe6k_OVxTJJPsA" name="main" zoom="1.0" gridSpacing="22,22">
+        <leftRuler xmi:id="_ECyBY2GuEe6k_OVxTJJPsA" unit="2"/>
+        <topRuler xmi:id="_ECyBZGGuEe6k_OVxTJJPsA" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_umFPQGGtEe6k_OVxTJJPsA" name="注册系统"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uCUa4GGtEe6k_OVxTJJPsA" name="登录系统"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xZTk0GGtEe6k_OVxTJJPsA" name="公告栏系统"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xrT60GGtEe6k_OVxTJJPsA" name="课程介绍"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vABZQGGtEe6k_OVxTJJPsA" name="课程内容"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yk1j0GGtEe6k_OVxTJJPsA" name="课程实践"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zb_OQGGtEe6k_OVxTJJPsA" name="教学团队"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_y-2mUGGtEe6k_OVxTJJPsA" name="选课系统"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zn9NsGGtEe6k_OVxTJJPsA" name="成绩管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_09uGwGGtEe6k_OVxTJJPsA" name="网上测试"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0wrwUGGtEe6k_OVxTJJPsA" name="下载区"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zN35wGGtEe6k_OVxTJJPsA" name="视频学习管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NMwoMGGvEe6k_OVxTJJPsA" name="留言板系统"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1T5VoGGuEe6k_OVxTJJPsA" memberEnd="_1T5VoWGuEe6k_OVxTJJPsA _1T5VpGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_1T5VoWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_umFPQGGtEe6k_OVxTJJPsA" isUnique="false" association="_1T5VoGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1T5Vo2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1T5VomGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_1T5VpGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_1T5VoGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1T5VpmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1T5VpWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2NHcoGGuEe6k_OVxTJJPsA" memberEnd="_2NHcoWGuEe6k_OVxTJJPsA _2NHcpGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_2NHcoWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_xZTk0GGtEe6k_OVxTJJPsA" isUnique="false" association="_2NHcoGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2NHco2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2NHcomGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_2NHcpGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_2NHcoGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2NHcpmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2NHcpWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3AVpUGGuEe6k_OVxTJJPsA" memberEnd="_3AVpUWGuEe6k_OVxTJJPsA _3AVpVGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_3AVpUWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_xrT60GGtEe6k_OVxTJJPsA" isUnique="false" association="_3AVpUGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3AVpU2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3AVpUmGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_3AVpVGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_3AVpUGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3AVpVmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3AVpVWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_41cw0GGuEe6k_OVxTJJPsA" memberEnd="_41cw0WGuEe6k_OVxTJJPsA _41cw1GGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_41cw0WGuEe6k_OVxTJJPsA" name="" visibility="private" type="_vABZQGGtEe6k_OVxTJJPsA" isUnique="false" association="_41cw0GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_41cw02GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_41cw0mGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_41cw1GGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_41cw0GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_41cw1mGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_41cw1WGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5SJ68GGuEe6k_OVxTJJPsA" memberEnd="_5SJ68WGuEe6k_OVxTJJPsA _5SJ69GGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_5SJ68WGuEe6k_OVxTJJPsA" name="" visibility="private" type="_yk1j0GGtEe6k_OVxTJJPsA" isUnique="false" association="_5SJ68GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5SJ682GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5SJ68mGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_5SJ69GGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_5SJ68GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5SJ69mGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5SJ69WGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5vDSUGGuEe6k_OVxTJJPsA" memberEnd="_5vDSUWGuEe6k_OVxTJJPsA _5vDSVGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_5vDSUWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_zb_OQGGtEe6k_OVxTJJPsA" isUnique="false" association="_5vDSUGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5vDSU2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5vDSUmGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_5vDSVGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_5vDSUGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5vDSVmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5vDSVWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6Gm2sGGuEe6k_OVxTJJPsA" memberEnd="_6Gm2sWGuEe6k_OVxTJJPsA _6Gm2tGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_6Gm2sWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_y-2mUGGtEe6k_OVxTJJPsA" isUnique="false" association="_6Gm2sGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6Gm2s2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6Gm2smGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6Gm2tGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_6Gm2sGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6Gm2tmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6Gm2tWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6hgC8GGuEe6k_OVxTJJPsA" memberEnd="_6hgC8WGuEe6k_OVxTJJPsA _6hgC9GGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_6hgC8WGuEe6k_OVxTJJPsA" name="" visibility="private" type="_zn9NsGGtEe6k_OVxTJJPsA" isUnique="false" association="_6hgC8GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6hgC82GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6hgC8mGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6hgC9GGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_6hgC8GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6hgC9mGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6hgC9WGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7mc40GGuEe6k_OVxTJJPsA" memberEnd="_7mc40WGuEe6k_OVxTJJPsA _7mc41GGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_7mc40WGuEe6k_OVxTJJPsA" name="" visibility="private" type="_09uGwGGtEe6k_OVxTJJPsA" isUnique="false" association="_7mc40GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mc402GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mc40mGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_7mc41GGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_7mc40GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mc41mGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mc41WGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8E36MGGuEe6k_OVxTJJPsA" memberEnd="_8E36MWGuEe6k_OVxTJJPsA _8E36NGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_8E36MWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_0wrwUGGtEe6k_OVxTJJPsA" isUnique="false" association="_8E36MGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8E36M2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8E36MmGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_8E36NGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_8E36MGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8E36NmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8E36NWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8aVM0GGuEe6k_OVxTJJPsA" memberEnd="_8aVM0WGuEe6k_OVxTJJPsA _8aVM1GGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_8aVM0WGuEe6k_OVxTJJPsA" name="" visibility="private" type="_zN35wGGtEe6k_OVxTJJPsA" isUnique="false" association="_8aVM0GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8aVM02GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8aVM0mGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_8aVM1GGuEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_8aVM0GGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8aVM1mGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8aVM1WGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-34NUGGuEe6k_OVxTJJPsA" memberEnd="_-34NUWGuEe6k_OVxTJJPsA _-34NVGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_-34NUWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_uCUa4GGtEe6k_OVxTJJPsA" isUnique="false" association="_-34NUGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-34NU2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-34NUmGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_-34NVGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_ZBFcwGGtEe6k_OVxTJJPsA" isUnique="false" association="_-34NUGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-34NVmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-34NVWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__aBREGGuEe6k_OVxTJJPsA" memberEnd="__aBREWGuEe6k_OVxTJJPsA __aBRFGGuEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="__aBREWGuEe6k_OVxTJJPsA" name="" visibility="private" type="_xZTk0GGtEe6k_OVxTJJPsA" isUnique="false" association="__aBREGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__aBRE2GuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__aBREmGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__aBRFGGuEe6k_OVxTJJPsA" name="" visibility="private" type="_ZBFcwGGtEe6k_OVxTJJPsA" isUnique="false" association="__aBREGGuEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__aBRFmGuEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__aBRFWGuEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AjvSMGGvEe6k_OVxTJJPsA" memberEnd="_AjvSMWGvEe6k_OVxTJJPsA _AjvSNGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_AjvSMWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_xrT60GGtEe6k_OVxTJJPsA" isUnique="false" association="_AjvSMGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AjvSM2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AjvSMmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_AjvSNGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZBFcwGGtEe6k_OVxTJJPsA" isUnique="false" association="_AjvSMGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AjvSNmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AjvSNWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A7rREGGvEe6k_OVxTJJPsA" memberEnd="_A7rREWGvEe6k_OVxTJJPsA _A7rRFGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_A7rREWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_vABZQGGtEe6k_OVxTJJPsA" isUnique="false" association="_A7rREGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A7rRE2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A7rREmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_A7rRFGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZBFcwGGtEe6k_OVxTJJPsA" isUnique="false" association="_A7rREGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A7rRFmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A7rRFWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BThJUGGvEe6k_OVxTJJPsA" memberEnd="_BThJUWGvEe6k_OVxTJJPsA _BThJVGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_BThJUWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_yk1j0GGtEe6k_OVxTJJPsA" isUnique="false" association="_BThJUGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BThJU2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BThJUmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_BThJVGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZBFcwGGtEe6k_OVxTJJPsA" isUnique="false" association="_BThJUGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BThJVmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BThJVWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CMW10GGvEe6k_OVxTJJPsA" memberEnd="_CMW10WGvEe6k_OVxTJJPsA _CMW11GGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_CMW10WGvEe6k_OVxTJJPsA" name="" visibility="private" type="_zb_OQGGtEe6k_OVxTJJPsA" isUnique="false" association="_CMW10GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CMW102GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CMW10mGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_CMW11GGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZBFcwGGtEe6k_OVxTJJPsA" isUnique="false" association="_CMW10GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CMW11mGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CMW11WGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TyYRUGGvEe6k_OVxTJJPsA" memberEnd="_TyYRUWGvEe6k_OVxTJJPsA _TyYRVGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_TyYRUWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_NMwoMGGvEe6k_OVxTJJPsA" isUnique="false" association="_TyYRUGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TyYRU2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TyYRUmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_TyYRVGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_TQv10GGtEe6k_OVxTJJPsA" isUnique="false" association="_TyYRUGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TyYRVmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TyYRVWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XNEPgGGvEe6k_OVxTJJPsA" memberEnd="_XNEPgWGvEe6k_OVxTJJPsA _XNEPhGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_XNEPgWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_uCUa4GGtEe6k_OVxTJJPsA" isUnique="false" association="_XNEPgGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XNEPg2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XNEPgmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_XNEPhGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_XNEPgGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XNEPhmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XNEPhWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YI9QAGGvEe6k_OVxTJJPsA" memberEnd="_YI9QAWGvEe6k_OVxTJJPsA _YI9QBGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_YI9QAWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_umFPQGGtEe6k_OVxTJJPsA" isUnique="false" association="_YI9QAGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YI9QA2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YI9QAmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_YI9QBGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_YI9QAGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YI9QBmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YI9QBWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YiOroGGvEe6k_OVxTJJPsA" memberEnd="_YiOroWGvEe6k_OVxTJJPsA _YiOrpGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_YiOroWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_NMwoMGGvEe6k_OVxTJJPsA" isUnique="false" association="_YiOroGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YiOro2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YiOromGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_YiOrpGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_YiOroGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YiOrpmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YiOrpWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ow4rkGGvEe6k_OVxTJJPsA" memberEnd="_ow4rkWGvEe6k_OVxTJJPsA _ow4rlGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_ow4rkWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_xZTk0GGtEe6k_OVxTJJPsA" isUnique="false" association="_ow4rkGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ow4rk2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ow4rkmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ow4rlGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_ow4rkGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ow4rlmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ow4rlWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pCVn8GGvEe6k_OVxTJJPsA" memberEnd="_pCVn8WGvEe6k_OVxTJJPsA _pCVn9GGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_pCVn8WGvEe6k_OVxTJJPsA" name="" visibility="private" type="_xrT60GGtEe6k_OVxTJJPsA" isUnique="false" association="_pCVn8GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pCVn82GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pCVn8mGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_pCVn9GGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_pCVn8GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pCVn9mGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pCVn9WGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pXib4GGvEe6k_OVxTJJPsA" memberEnd="_pXib4WGvEe6k_OVxTJJPsA _pXib5GGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_pXib4WGvEe6k_OVxTJJPsA" name="" visibility="private" type="_vABZQGGtEe6k_OVxTJJPsA" isUnique="false" association="_pXib4GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pXib42GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pXib4mGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_pXib5GGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_pXib4GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pXib5mGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pXib5WGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ptEnAGGvEe6k_OVxTJJPsA" memberEnd="_ptEnAWGvEe6k_OVxTJJPsA _ptEnBGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_ptEnAWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_yk1j0GGtEe6k_OVxTJJPsA" isUnique="false" association="_ptEnAGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ptEnA2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ptEnAmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ptEnBGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_ptEnAGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ptEnBmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ptEnBWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qBILcGGvEe6k_OVxTJJPsA" memberEnd="_qBILcWGvEe6k_OVxTJJPsA _qBILdGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_qBILcWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_zb_OQGGtEe6k_OVxTJJPsA" isUnique="false" association="_qBILcGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qBILc2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qBILcmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qBILdGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_qBILcGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qBILdmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qBILdWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qd2jsGGvEe6k_OVxTJJPsA" memberEnd="_qd2jsWGvEe6k_OVxTJJPsA _qd2jtGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_qd2jsWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_y-2mUGGtEe6k_OVxTJJPsA" isUnique="false" association="_qd2jsGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qd2js2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qd2jsmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qd2jtGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_qd2jsGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qd2jtmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qd2jtWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rKDiYGGvEe6k_OVxTJJPsA" memberEnd="_rKDiYWGvEe6k_OVxTJJPsA _rKDiZGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_rKDiYWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_zn9NsGGtEe6k_OVxTJJPsA" isUnique="false" association="_rKDiYGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKDiY2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKDiYmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_rKDiZGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_rKDiYGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKDiZmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKDiZWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ridbUGGvEe6k_OVxTJJPsA" memberEnd="_ridbUWGvEe6k_OVxTJJPsA _ridbVGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_ridbUWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_09uGwGGtEe6k_OVxTJJPsA" isUnique="false" association="_ridbUGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ridbU2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ridbUmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ridbVGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_ridbUGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ridbVmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ridbVWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sFcMkGGvEe6k_OVxTJJPsA" memberEnd="_sFcMkWGvEe6k_OVxTJJPsA _sFcMlGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_sFcMkWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_0wrwUGGtEe6k_OVxTJJPsA" isUnique="false" association="_sFcMkGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sFcMk2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFcMkmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sFcMlGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_sFcMkGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sFcMlmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFcMlWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_saVegGGvEe6k_OVxTJJPsA" memberEnd="_saVegWGvEe6k_OVxTJJPsA _saVehGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_saVegWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_zN35wGGtEe6k_OVxTJJPsA" isUnique="false" association="_saVegGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_saVeg2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_saVegmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_saVehGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_Y37gwGGtEe6k_OVxTJJPsA" isUnique="false" association="_saVegGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_saVehmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_saVehWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vUfigGGvEe6k_OVxTJJPsA" memberEnd="_vUfigWGvEe6k_OVxTJJPsA _vUfihGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_vUfigWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_uCUa4GGtEe6k_OVxTJJPsA" isUnique="false" association="_vUfigGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vUfig2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vUfigmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_vUfihGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_vUfigGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vUfihmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vUfihWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v4njQGGvEe6k_OVxTJJPsA" memberEnd="_v4njQWGvEe6k_OVxTJJPsA _v4oKUmGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_v4njQWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_xrT60GGtEe6k_OVxTJJPsA" isUnique="false" association="_v4njQGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v4oKUWGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v4oKUGGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_v4oKUmGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_v4njQGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v4oKVGGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v4oKU2GvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wQBWoGGvEe6k_OVxTJJPsA" memberEnd="_wQBWoWGvEe6k_OVxTJJPsA _wQBWpGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_wQBWoWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_vABZQGGtEe6k_OVxTJJPsA" isUnique="false" association="_wQBWoGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wQBWo2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wQBWomGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_wQBWpGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_wQBWoGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wQBWpmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wQBWpWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wkr_EGGvEe6k_OVxTJJPsA" memberEnd="_wkr_EWGvEe6k_OVxTJJPsA _wkr_FGGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_wkr_EWGvEe6k_OVxTJJPsA" name="" visibility="private" type="_yk1j0GGtEe6k_OVxTJJPsA" isUnique="false" association="_wkr_EGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wkr_E2GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wkr_EmGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_wkr_FGGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_wkr_EGGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wkr_FmGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wkr_FWGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xJ5k8GGvEe6k_OVxTJJPsA" memberEnd="_xJ5k8WGvEe6k_OVxTJJPsA _xJ5k9GGvEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_xJ5k8WGvEe6k_OVxTJJPsA" name="" visibility="private" type="_zb_OQGGtEe6k_OVxTJJPsA" isUnique="false" association="_xJ5k8GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xJ5k82GvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xJ5k8mGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_xJ5k9GGvEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_xJ5k8GGvEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xJ5k9mGvEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xJ5k9WGvEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_CBIn0GGwEe6k_OVxTJJPsA" name="管理端子系统">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ErYnkGGwEe6k_OVxTJJPsA" name="用户管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_E7ECUGGwEe6k_OVxTJJPsA" name="课程资源管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FMX0wGGwEe6k_OVxTJJPsA" name="课程内容管理"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kei3MGGwEe6k_OVxTJJPsA" memberEnd="_kei3MWGwEe6k_OVxTJJPsA _kekFUGGwEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_kei3MWGwEe6k_OVxTJJPsA" name="" visibility="private" type="_ErYnkGGwEe6k_OVxTJJPsA" isUnique="false" association="_kei3MGGwEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kei3M2GwEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kei3MmGwEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_kekFUGGwEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_kei3MGGwEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kekFUmGwEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kekFUWGwEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ktvw0GGwEe6k_OVxTJJPsA" memberEnd="_ktvw0WGwEe6k_OVxTJJPsA _ktvw1GGwEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_ktvw0WGwEe6k_OVxTJJPsA" name="" visibility="private" type="_E7ECUGGwEe6k_OVxTJJPsA" isUnique="false" association="_ktvw0GGwEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ktvw02GwEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ktvw0mGwEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ktvw1GGwEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_ktvw0GGwEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ktvw1mGwEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ktvw1WGwEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lJw-cGGwEe6k_OVxTJJPsA" memberEnd="_lJw-cWGwEe6k_OVxTJJPsA _lJw-dGGwEe6k_OVxTJJPsA">
+    <ownedEnd xmi:id="_lJw-cWGwEe6k_OVxTJJPsA" name="" visibility="private" type="_FMX0wGGwEe6k_OVxTJJPsA" isUnique="false" association="_lJw-cGGwEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lJw-c2GwEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lJw-cmGwEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_lJw-dGGwEe6k_OVxTJJPsA" name="" visibility="private" type="_ZMie0GGtEe6k_OVxTJJPsA" isUnique="false" association="_lJw-cGGwEe6k_OVxTJJPsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lJw-dmGwEe6k_OVxTJJPsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lJw-dWGwEe6k_OVxTJJPsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:id="_fBJzsmGrEe6k_OVxTJJPsA">
+    <eAnnotations xmi:id="_fBJzs2GrEe6k_OVxTJJPsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_fBJzyWGrEe6k_OVxTJJPsA">
+    <eAnnotations xmi:id="_fBJzymGrEe6k_OVxTJJPsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="platform:/plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsopdEduhQbAH2yN0Zw"/>
+    </eAnnotations>
+    <appliedProfile href="platform:/plugin/com.trufun.uml2.kernel/UML2Default.profile.uml#_kRqOsIpdEduhQbAH2yN0Zw"/>
+  </profileApplication>
+  <profileApplication xmi:id="_fBJzzWGrEe6k_OVxTJJPsA">
+    <eAnnotations xmi:id="_fBJzzmGrEe6k_OVxTJJPsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="platform:/plugin/com.trufun.uml2.kernel/UML2Ext.profile.uml#_WyVnIwPrEd-5Zf6Hw9sz1g"/>
+    </eAnnotations>
+    <appliedProfile href="platform:/plugin/com.trufun.uml2.kernel/UML2Ext.profile.uml#_WyVnIQPrEd-5Zf6Hw9sz1g"/>
+  </profileApplication>
+</uml:Model>
